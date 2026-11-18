@@ -1,0 +1,22 @@
+{
+  "name": "i-am-traffic",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test:sim": "rolldown scripts/simtest.ts --format esm --platform node -o dist-test/simtest.mjs && node dist-test/simtest.mjs",
+    "test:drive": "rolldown scripts/drivetest.ts --format esm --platform node -o dist-test/drivetest.mjs && node dist-test/drivetest.mjs"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5"
+  }
+}

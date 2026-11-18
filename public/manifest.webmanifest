@@ -1,0 +1,11 @@
+{
+  "name": "I am Traffic",
+  "short_name": "I am Traffic",
+  "description": "A slow, first-person drive through city traffic.",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#0d1014",
+  "theme_color": "#0d1014",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
